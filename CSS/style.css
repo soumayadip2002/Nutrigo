@@ -3,7 +3,7 @@
     --orange: #8062D6;
     --black: #130f40;
     --light-color: #666;
-    --box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0, .3);
+    --box-shadow: 0 .5rem 1.5rem rgb(0, 0, 0, .2);
     --border: .2rem solid rgb(0, 0, 0, .1);
     --outline: .1rem solid rgb(0, 0, 0, .1);
     --outline-hover: .2rem solid var(--black);
@@ -532,7 +532,7 @@ section {
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     width: 35rem;
-    background: #D4E2D4;
+    background: #fff;
 }
 
 .header .shopping-cart.active,
