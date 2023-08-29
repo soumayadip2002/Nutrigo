@@ -136,9 +136,10 @@
             <div class="fas fa-user" id="login-btn"></div>
             <?php } ?>
         </div>
-        <form action="" class="search-form">
-            <input type="search" id="search-box" placeholder="search here..." />
+        <form action="<?= ROOT_URL ?>search.php" class="search-form" method="get">
+            <input type="search" id="search-box" placeholder="search here..." name="search"/>
             <label for="search-box" class="fas fa-search"></label>
+            <button type="submit" name="submit"></button>
         </form>
 
         <div class="fav-cart">
